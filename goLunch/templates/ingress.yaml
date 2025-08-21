@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: golunch.local
+    - host: api.golunch.me
       http:
         paths:
           - path: /

@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: app-config
 data:
-  UPLOAD_DIR: "./uploads"
-  PUBLIC_URL: "http://localhost:8080"
-  WEBHOOK_URL: "https://webhook.site/123e4567-e89b-12d3-a456-426614174000"
+  UPLOAD_DIR: "/app/uploads"
+  PUBLIC_URL: "https://api.golunch.me"
+  WEBHOOK_URL: "https://api.golunch.me/webhook"
